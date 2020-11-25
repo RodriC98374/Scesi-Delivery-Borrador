@@ -1,0 +1,23 @@
+.main{
+    grid-area: main;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Poppins;  
+}
+.main h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+}
+.main p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+.main--text{
+    width: 70%;
+    margin: 0 auto;
+}

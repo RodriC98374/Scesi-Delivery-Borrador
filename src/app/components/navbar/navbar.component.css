@@ -1,0 +1,36 @@
+
+.header{
+    /* grid-area: header; */
+    width: 100%;
+    background-color: #242C33;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+.header--logo{
+    margin-left: 65px;
+}
+.header--nav-buttons{
+    margin-right: 40px;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.header--nav-buttons li{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    width: 30px;
+    border-radius: 50%;
+}

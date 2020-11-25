@@ -1,0 +1,30 @@
+.feedback-cards{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 100px 0;
+}
+.feedback-cards__card{
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #242C33;
+    color: #fdfdfd;
+    margin: 0 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.feedback-cards__card img{
+    position: absolute;
+    top: -20px;
+    max-width: 120px;
+    border-radius: 50%;
+}
+.feedback-cards__card h4{
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.feedback-cards__card p{
+    font-size: 16px;
+}
